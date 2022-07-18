@@ -160,18 +160,26 @@ address {
 .business-cases .container .title-secondary {
   padding-top: 50px;
   padding-bottom: 15px;
+  mardgin-left: 592px;
+  mardgin-right: 593px;
 }
 
 .business-cases .container .title {
   padding-bottom: 34px;
+  margin-left: 543px;
+  margin-right: 543px;
 }
 
 .business-cases .container .text {
   padding-bottom: 39px;
 }
 
+.business-cases-item {
+  width: 320px;
+  height: 213px;
+}
 .business-cases-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 8px;
 }
