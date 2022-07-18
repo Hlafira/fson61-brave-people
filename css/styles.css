@@ -25,6 +25,40 @@ body {
   margin: 0 auto;
 }
 
+/* button */
+
+.button {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  padding: 10px 30px 10px 40px;
+  border: none;
+  cursor: pointer;
+
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.button.secondary {
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+}
+
+/* TITLE */
+
+.title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+.title-secondary {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+}
+
 /* rest */
 
 html {
@@ -45,6 +79,7 @@ h6,
 p {
   margin: 0;
 }
+
 /* Класс для обнуления базовых свойств у списков (ul) */
 .list {
   list-style: none;
@@ -67,6 +102,8 @@ img {
 address {
   font-style: normal;
 }
+
+
 
 /* =========HEADER============= */
 
@@ -133,20 +170,6 @@ address {
   margin-bottom: 29px;
 }
 
-/* TITLE */
-
-.title {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-}
-
-.title-secondary {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.65;
-}
-
 /* What you are looking for */
 
 .looking-box {
@@ -174,30 +197,3 @@ address {
   color: var(--secondary-text-color);
 }
 
-/* button */
-
-.button {
-  background-color: var(--accent-color);
-  border-radius: 5px;
-  padding: 10px 30px 10px 40px;
-  border: none;
-  cursor: pointer;
-
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--secondary-text-color);
-}
-
-.button.secondary {
-  background-color: transparent; 
-  border-radius: 5px;
-  padding: 10px 30px 10px 40px;
-  border: 1px solid var(--secondary-text-color);
-  cursor: pointer;
-  
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 1.56;
-  color: var(--secondary-text-color);
-}
