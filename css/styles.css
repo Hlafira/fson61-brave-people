@@ -147,3 +147,31 @@ address {
   line-height: 1.56;
   color: var(--secondary-text-color);
 }
+
+/* ====== BUSINESS CASES ======== */
+.business-cases {
+  background: bisque;
+}
+
+.business-cases .container {
+  padding: 0 50px;
+}
+
+.business-cases .container .title-secondary {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.business-cases .container .title {
+  padding-bottom: 34px;
+}
+
+.business-cases .container .text {
+  padding-bottom: 39px;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
