@@ -154,24 +154,36 @@ address {
 }
 
 .business-cases .container {
-  padding: 0 50px;
+  padding: 50px 28px 48px 28px;
 }
 
 .business-cases .container .title-secondary {
   padding-top: 50px;
   padding-bottom: 15px;
-  mardgin-left: 592px;
-  mardgin-right: 593px;
+
+  margin-left: 564px;
+  margin-right: 565px;
+
+  /* font-weight: 400;
+  font-size: 20px;
+  line-height: 33px; */
+  /* identical to box height, or 165% */
+
+  /* text-align: center; */
 }
 
 .business-cases .container .title {
   padding-bottom: 34px;
-  margin-left: 543px;
-  margin-right: 543px;
+  margin-left: 515px;
+  margin-right: 516px;
+  /* text-align: center; */
 }
 
 .business-cases .container .text {
   padding-bottom: 39px;
+  margin-left: 339px;
+  margin-right: 320px;
+  /* text-align: center; */
 }
 
 .business-cases-item {
@@ -181,5 +193,6 @@ address {
 .business-cases-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  column-gap: 8px;
+  row-gap: 7px;
 }
