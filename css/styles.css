@@ -10,7 +10,6 @@ body {
   color: var(--primary-text-color);
 }
 
-
 /* rest */
 
 html {
@@ -105,9 +104,6 @@ address {
   line-height: 1.65;
 }
 
-
-
-
 /* =========HEADER============= */
 
 .header {
@@ -200,11 +196,7 @@ address {
   color: var(--secondary-text-color);
 }
 
-
 /* ====== BUSINESS CASES ======== */
-.business-cases {
-  background: bisque;
-}
 
 .business-cases .container {
   padding: 50px 28px 48px 28px;
@@ -213,36 +205,32 @@ address {
 .business-cases .container .title-secondary {
   padding-top: 50px;
   padding-bottom: 15px;
+  text-align: center;
 
-  margin-left: 564px;
-  margin-right: 565px;
-
+  /* margin-left: 564px; */
+  /* margin-right: 565px; */
   /* font-weight: 400;
   font-size: 20px;
   line-height: 33px; */
   /* identical to box height, or 165% */
-
-  /* text-align: center; */
 }
 
 .business-cases .container .title {
   padding-bottom: 34px;
-  margin-left: 515px;
-  margin-right: 516px;
-  /* text-align: center; */
+  text-align: center;
+
+  /* margin-left: 515px; */
+  /* margin-right: 516px; */
 }
 
 .business-cases .container .text {
   padding-bottom: 39px;
-  margin-left: 339px;
-  margin-right: 320px;
-  /* text-align: center; */
+  text-align: center;
+
+  /* margin-left: 339px; */
+  /* margin-right: 320px; */
 }
 
-.business-cases-item {
-  width: 320px;
-  height: 213px;
-}
 .business-cases-list {
   display: flex;
   flex-wrap: wrap;
@@ -250,3 +238,7 @@ address {
   row-gap: 7px;
 }
 
+/* .business-cases-item
+  width: 320px;
+  height: 213px;
+} */
