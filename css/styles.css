@@ -238,9 +238,8 @@ address {
   row-gap: 7px;
 }
 
-/* .business-cases-item
-  width: 320px;
-  height: 213px;
-} */
+.business-cases-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
 
 /* test */
