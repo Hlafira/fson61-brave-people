@@ -203,8 +203,8 @@ address {
 }
 
 .business-cases .container .title-secondary {
-  padding-top: 50px;
-  padding-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 15px;
   text-align: center;
 
   /* margin-left: 564px; */
@@ -216,7 +216,7 @@ address {
 }
 
 .business-cases .container .title {
-  padding-bottom: 34px;
+  margin-bottom: 34px;
   text-align: center;
 
   /* margin-left: 515px; */
@@ -224,7 +224,7 @@ address {
 }
 
 .business-cases .container .text {
-  padding-bottom: 39px;
+  margin-bottom: 39px;
   text-align: center;
 
   /* margin-left: 339px; */
