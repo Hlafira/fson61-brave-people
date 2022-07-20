@@ -256,11 +256,12 @@ address {
   margin-bottom: 28px;
 }
 .article-box {
-  background-color: var(--third-text-color);
+  
   display: flex;
 }
 .blog-description {
   padding: 84px 44px 84px 30px;
+  background-color: var(--third-text-color);
 }
 .title-secondary {
   margin-bottom: 5px;
