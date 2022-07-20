@@ -2,6 +2,7 @@
   --accent-color: #28a745;
   --primary-text-color: #333333;
   --secondary-text-color: #ffffff;
+  --third-text-color: #0284D0;
 }
 
 body {
@@ -242,4 +243,34 @@ address {
   flex-basis: calc((100% - 24px) / 4);
 }
 
+/* ====== Blog Post One ======== */
+.blog {
+  padding-top: 112px;
+  padding-bottom: 113px;
+}
+.blog-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-bottom: 28px;
+}
+.article-box {
+  background-color: var(--third-text-color);
+  display: flex;
+}
+.blog-description {
+  padding: 84px 44px 84px 30px;
+}
+.title-secondary {
+  margin-bottom: 5px;
+}
+.blog-title {
+  color: var(--secondary-text-color);
+  margin-bottom: 26px;
+}
+.time-title {
+  color: var(--secondary-text-color);
+  margin-bottom: 5px;
+}
 /* test */
