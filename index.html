@@ -14,28 +14,52 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+    <!-- Шрифти -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
+    />
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--header  -->
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="logo">Finance Ledger</a>
-        <ul class="header-nav-list">
-          <li class="header-nav-item"><a class="header-nav-link" href="">Home</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">About</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Cases</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Blog</a></li>
-          <li class="header-nav-item"><a class="header-nav-link" href="">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo link"
+            ><span class="accent">Finance</span> Ledger
+          </a>
+          <ul class="header-nav-list list">
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Home</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">About</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Cases</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Blog</a></li>
+            <li class="header-nav-item"><a class="header-nav-link link" href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- main -->
     <main>
+      <!-- HERO -->
       <section class="hero">
-        <h1 class="hero-title">The Sky Is The Limit</h1>
-        <p class="hero-text">We provide world class financial assistance</p>
-        <button type="button" class="button">Read More</button>
+        <div class="container">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <button type="button" class="button">Read More</button>
+        </div>
       </section>
 
       <!-- add about -->
@@ -69,80 +93,101 @@
       <!-- What you are looking for -->
 
       <section class="looking">
-        <img
-          class="looking-img"
-          src="./images/looking/looking.jpg"
-          alt="what you are looking fo"
-          width="680"
-          height="460"
-        />
-        <h3 class="looking-title-secondary">What you are looking for</h3>
-        <h2 class="looking-title">We provide bespoke solutions</h2>
-        <p class="looking-text">
+        <div class="container looking-box">
+          <img
+            class="looking-img"
+            src="./images/looking/looking.jpg"
+            alt="what you are looking fo"
+            width="680"
+            height="460"
+          />
+          <div class="looking-description">
+            <h3 class="looking-title-secondary title-secondary">What you are looking for</h3>
+            <h2 class="looking-title title">We provide bespoke solutions</h2>
+            <p class="looking-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
+              quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
+              itaque rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="button secondary">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- BUSINESS CASES -->
+
+      <section>
+        <h2>This is what we do</h2>
+        <h3>Business Cases</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul>
+          <li><img src="./images/bussinescases/bussines1.jpg" alt="meeting" /></li>
+          <li><img src="./images/bussinescases/bussines2.jpg" alt="diagramma and book" /></li>
+          <li><img src="./images/bussinescases/bussines3.jpg" alt="handshake" /></li>
+          <li><img src="./images/bussinescases/bussines4.jpg" alt="team handshake" /></li>
+          <li><img src="./images/bussinescases/bussines5.jpg" alt="notebook" /></li>
+          <li><img src="./images/bussinescases/bussines6.jpg" alt="skyscraper" /></li>
+          <li><img src="./images/bussinescases/bussines7.jpg" alt="bussines team" /></li>
+          <li><img src="./images/bussinescases/bussines8.jpg" alt="bussines team work" /></li>
+        </ul>
+      </section>
+
+      <!-- Blog Post One -->
+      
+      <article class="blog">
+        <time datetime="2020-04-16">April 16 2020</time>
+        <h2 class="blog-item">Blog Post One</h2>
+        <p class="blog-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos
           quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores
           itaque rerum temporibus doloribus iste maiores deleniti?
         </p>
-        <button type="button secondary" class="button">Read More</button>
+        <a href="#" class="blog-link">Read Our Blog</a>
+      </article>
+
+      <!-- WHO WE ARE -->
+
+      <section>
+        <h4>Who we are</h4>
+        <h2>Our Professional Team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul>
+          <li>
+            <img src="./images/who-we-are/john.jpg" alt="" width="420" height="280" />
+            <h3>John Doe</h3>
+            <p>President</p>
+          </li>
+          <li>
+            <img src="./images/who-we-are/jane.jpg" alt="" width="420" height="280" />
+            <h3>Jane Doe</h3>
+            <p>Vice President</p>
+          </li>
+          <li>
+            <img src="./images/who-we-are/steve.jpg" alt="" width="420" height="280" />
+            <h3>Steve Smith</h3>
+            <p>Marketing Head</p>
+          </li>
+        </ul>
       </section>
-    </main>
-
-    <!-- BUSINESS CASES -->
-
-    <section>
-      <h2>This is what we do</h2>
-      <h3>Business Cases</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
-        <li><img src="./images/bussinescases/bussines1.jpg" alt="meeting" /></li>
-        <li><img src="./images/bussinescases/bussines2.jpg" alt="diagramma and book" /></li>
-        <li><img src="./images/bussinescases/bussines3.jpg" alt="handshake" /></li>
-        <li><img src="./images/bussinescases/bussines4.jpg" alt="team handshake" /></li>
-        <li><img src="./images/bussinescases/bussines5.jpg" alt="notebook" /></li>
-        <li><img src="./images/bussinescases/bussines6.jpg" alt="skyscraper" /></li>
-        <li><img src="./images/bussinescases/bussines7.jpg" alt="bussines team" /></li>
-        <li><img src="./images/bussinescases/bussines8.jpg" alt="bussines team work" /></li>
-      </ul>
-    </section>
-
-    <!-- WHO WE ARE -->
-
-    <section>
-      <h4>Who we are</h4>
-      <h2>Our Professional Team</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
-        <li>
-          <img src="./images/who-we-are/john.jpg" alt="" width="420" height="280" />
-          <h3>John Doe</h3>
-          <p>President</p>
-        </li>
-        <li>
-          <img src="./images/who-we-are/jane.jpg" alt="" width="420" height="280" />
-          <h3>Jane Doe</h3>
-          <p>Vice President</p>
-        </li>
-        <li>
-          <img src="./images/who-we-are/steve.jpg" alt="" width="420" height="280" />
-          <h3>Steve Smith</h3>
-          <p>Marketing Head</p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Blog Post One -->
-    <article class="blog">
-      <time datetime="2020-04-16">April 16 2020</time>
-      <h2 class="blog-item">Blog Post One</h2>
-      <p class="blog-text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae
-        laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque
-        rerum temporibus doloribus iste maiores deleniti?
-      </p>
-      <a href="#" class="blog-link">Read Our Blog</a>
-    </article>
-
-    <!-- ===========FOOTER================== -->
+      
+      <!-- REQUEST CALLBACK -->
+      
+      <section class="callback">
+        <img
+          src="./images/reqwest-callback/Rectangle.jpg"
+          alt="callback you"
+          width="680px"
+          height="460px"
+        />
+        <h2 class="callback-tittle">Request Callback</h2>
+        <p class="callback-text">Enter your name</p>
+        <p class="callback-text">Enter email*</p>
+        <p class="callback-text">Send</p>
+      </section>
+   </main>
+   
+      <!-- ===========FOOTER================== -->
+      
   <footer>
     <ul class="footer-list">
       <li class="footer-link">
@@ -160,9 +205,10 @@
     </ul>
     <p>Copyright © 2021 - FinanceLedger</p>
   </footer>
+  </body>
 </html>
 
 
-  </body>
+
 
   
