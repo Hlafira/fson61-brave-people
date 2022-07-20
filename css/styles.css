@@ -10,6 +10,51 @@ body {
   color: var(--primary-text-color);
 }
 
+/* rest */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Свойства для обнуления курсива у address */
+
+address {
+  font-style: normal;
+}
+
+/*====Reser========*/
 /* utils */
 .link {
   text-decoration: none;
@@ -58,52 +103,6 @@ body {
   font-size: 20px;
   line-height: 1.65;
 }
-
-/* rest */
-
-html {
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-/* Стили для обнуления верхних отступов у элементов */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-/* Класс для обнуления базовых свойств у списков (ul) */
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-/* Класс для обнуления базовых свойств у ссылок */
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-/* Свойства для корректного отображения картинок */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* Свойства для обнуления курсива у address */
-
-address {
-  font-style: normal;
-}
-
-
 
 /* =========HEADER============= */
 
@@ -197,3 +196,50 @@ address {
   color: var(--secondary-text-color);
 }
 
+/* ====== BUSINESS CASES ======== */
+
+.business-cases .container {
+  padding: 50px 28px 48px 28px;
+}
+
+.business-cases .container .title-secondary {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+
+  /* margin-left: 564px; */
+  /* margin-right: 565px; */
+  /* font-weight: 400;
+  font-size: 20px;
+  line-height: 33px; */
+  /* identical to box height, or 165% */
+}
+
+.business-cases .container .title {
+  margin-bottom: 34px;
+  text-align: center;
+
+  /* margin-left: 515px; */
+  /* margin-right: 516px; */
+}
+
+.business-cases .container .text {
+  margin-bottom: 39px;
+  text-align: center;
+
+  /* margin-left: 339px; */
+  /* margin-right: 320px; */
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 7px;
+}
+
+.business-cases-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
+
+/* test */
