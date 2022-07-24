@@ -244,34 +244,29 @@ address {
 }
 
 /* ====== Blog Post One ======== */
-.blog {
-  padding-top: 112px;
-  padding-bottom: 113px;
-}
-.blog-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #FFFFFF;
-  margin-bottom: 28px;
-}
 .article-box {
-  
   display: flex;
 }
-.blog-description {
-  padding: 84px 44px 84px 30px;
-  background-color: var(--third-text-color);
-}
-.title-secondary {
-  margin-bottom: 5px;
-}
-.blog-title {
-  color: var(--secondary-text-color);
-  margin-bottom: 26px;
-}
+
 .time-title {
   color: var(--secondary-text-color);
-  margin-bottom: 5px;
 }
+
+.blog-title {
+  margin-top: 5px;
+  margin-bottom: 26px;
+  color: var(--secondary-text-color);
+}
+
+.blog-text {
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+  margin-bottom: 28px;
+}
+
+.blog-description {
+  padding: 112px 44px 113px 30px;
+  background-color: var(--third-text-color);
+}
+
 /* test */
