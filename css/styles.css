@@ -249,11 +249,13 @@ address {
 }
 
 .time-title {
+  display: block;
+  margin-bottom: 5px;
   color: var(--secondary-text-color);
 }
 
 .blog-title {
-  margin-top: 5px;
+  
   margin-bottom: 26px;
   color: var(--secondary-text-color);
 }
