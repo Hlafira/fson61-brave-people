@@ -2,7 +2,7 @@
   --accent-color: #28a745;
   --primary-text-color: #333333;
   --secondary-text-color: #ffffff;
-  --third-text-color: #0284D0;
+  --third-text-color: #0284d0;
 }
 
 body {
@@ -200,11 +200,11 @@ address {
 /* ====== BUSINESS CASES ======== */
 
 .business-cases .container {
+.business-cases {
   padding: 50px 28px 48px 28px;
 }
 
 .business-cases .container .title-secondary {
-  margin-top: 50px;
   margin-bottom: 15px;
   text-align: center;
 
@@ -237,6 +237,8 @@ address {
   flex-wrap: wrap;
   column-gap: 8px;
   row-gap: 7px;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
 .business-cases-item {
@@ -255,7 +257,6 @@ address {
 }
 
 .blog-title {
-  
   margin-bottom: 26px;
   color: var(--secondary-text-color);
 }
@@ -272,3 +273,45 @@ address {
 }
 
 /* test */
+/* ==================Footer==================== */
+.footer {
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-align: center;
+  background-color: #333;
+  color: var(--secondary-text-color);
+}
+
+.social-network-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.social-network-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.social-network-link {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  color: var(--secondary-text-color);
+  transition: color 250ms ease-in-out;
+}
+
+.social-network-link:hover,
+.social-network-link:focus {
+  color: var(--accent-color);
+}
+
+.social-network-link svg {
+  fill: currentColor;
+}
+
+.footer-copyright {
+  line-height: 1.55;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
