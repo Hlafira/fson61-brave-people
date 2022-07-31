@@ -194,7 +194,7 @@ address {
 .about {
   padding-top: 40px;
   padding-bottom: 19px;
-
+  text-align: center;
   background-color: var(--bg-color);
 }
 
