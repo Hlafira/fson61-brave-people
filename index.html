@@ -245,17 +245,40 @@
 
       <!-- REQUEST CALLBACK -->
 
-      <section class="callback">
-        <img
-          src="./images/reqwest-callback/Rectangle.jpg"
-          alt="callback you"
-          width="680px"
-          height="460px"
-        />
-        <h2 class="callback-tittle">Request Callback</h2>
-        <p class="callback-text">Enter your name</p>
-        <p class="callback-text">Enter email*</p>
-        <p class="callback-text">Send</p>
+      <section class="request-callback">
+        <div class="container callback">
+          <img
+            src="./images/reqwest-callback/Rectangle.jpg"
+            alt="callback you"
+            width="680px"
+            height="460px"
+          />
+
+          <form action="#" class="form-callback">
+            <div class="callback-input-field">
+              <p class="callback-title title">Request Callback</p>
+              <label class="input-field">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Enter your name"
+                  name="name"
+                  required
+                />
+              </label>
+              <label class="input-field">
+                <input
+                  type="email"
+                  class="form-input"
+                  placeholder="Enter email*"
+                  name="email"
+                  required
+                />
+              </label>
+              <button class="btn-submit button" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 

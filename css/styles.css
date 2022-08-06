@@ -434,4 +434,52 @@ address {
   color: var(--secondary-text-color);
 }
 
-/* ==================Footer==================== */
+/* ==================callback==================== */
+.callback {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.form-callback {
+  width: 100%;
+  padding-top: 78px;
+  padding-bottom: 82px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: var(--bg-color);
+}
+
+.callback-input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.callback-title {
+  margin-bottom: 36px;
+}
+
+.input-field {
+  margin-bottom: 36px;
+}
+
+.input-field:last-of-type {
+  margin-bottom: 60px;
+}
+
+.form-input {
+  width: 100%;
+  border: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.form-input {
+  padding: 5px;
+}
+.btn-submit {
+}
