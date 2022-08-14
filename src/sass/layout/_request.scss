@@ -45,3 +45,12 @@
 .form-input {
   padding: 5px;
 }
+
+.request-btn {
+  @extend .button;
+
+  width: 100%;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  height: 42px;
+}

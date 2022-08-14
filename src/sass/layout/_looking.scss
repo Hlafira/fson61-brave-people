@@ -23,3 +23,14 @@
   line-height: 1.56;
   color: var(--secondary-text-color);
 }
+
+.looking-btn {
+  @extend .button;
+
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
+
+  width: 167px;
+  height: 48px;
+}
