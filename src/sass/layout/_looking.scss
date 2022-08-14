@@ -1,0 +1,24 @@
+.looking-box {
+  display: flex;
+}
+
+.looking-description {
+  background-color: var(--accent-color);
+  padding: 84px 44px 84px 30px;
+}
+
+.looking-title-secondary {
+  margin-bottom: 5px;
+  color: var(--secondary-text-color);
+}
+
+.looking-title {
+  margin-bottom: 26px;
+  color: var(--secondary-text-color);
+}
+
+.looking-text {
+  margin-bottom: 17px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
