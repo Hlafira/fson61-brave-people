@@ -1,0 +1,31 @@
+.business-cases {
+  padding: 50px 28px 48px 28px;
+}
+
+.business-cases .container .title-secondary {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.business-cases .container .title {
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.business-cases .container .text {
+  margin-bottom: 39px;
+  text-align: center;
+}
+
+.business-cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 7px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.business-cases-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
