@@ -171,12 +171,9 @@ address {
   gap: 70px;
 }
 
-.blog {
-  padding: 0;
-}
-
 .article-box {
   display: flex;
+  padding: 0;
 }
 
 .time-title {
