@@ -1,9 +1,6 @@
-.blog {
-  padding: 0;
-}
-
 .article-box {
   display: flex;
+  padding: 0;
 }
 
 .time-title {
@@ -26,4 +23,14 @@
 .blog-description {
   padding: 112px 44px 113px 30px;
   background-color: var(--third-text-color);
+}
+
+.blog-btn {
+  @extend .button;
+
+  background-color: transparent;
+  border: 1px solid var(--secondary-text-color);
+  color: var(--secondary-text-color);
+  width: 196px;
+  height: 50px;
 }
