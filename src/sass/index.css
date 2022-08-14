@@ -173,6 +173,7 @@ address {
 
 .article-box {
   display: flex;
+  padding: 0;
 }
 
 .time-title {
