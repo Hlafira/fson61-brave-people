@@ -30,8 +30,11 @@
   line-height: 1.65;
   text-align: center;
   color: var(--primary-text-color);
-
   margin-bottom: 16px;
+
+  // @media screen and (min-width: $tablet) {
+  //   font-weight: 900;
+  // }
 }
 
 .about-text {
